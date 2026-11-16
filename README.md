@@ -128,7 +128,7 @@ Both are generated from the same run record, so the issue, the email and the UI 
 **Requirements:** Node ≥ 22, a [Neon](https://neon.tech) Postgres database, and Chromium for Playwright. The server uses Neon's HTTP database driver.
 
 ```bash
-git clone https://github.com/hritvikgupta/probeqa.git
+git clone https://github.com/aayush-wiz/probeqa.git
 cd probeqa
 npm ci
 npm run setup
@@ -211,6 +211,6 @@ The highest-leverage contribution is **perception**: a widget pattern `inspect_p
 
 ## License
 
-[GNU AGPL-3.0](LICENSE) © 2026 Hritvik Gupta.
+[GNU AGPL-3.0](LICENSE) © 2026 Aayush Gupta.
 
 You may use, modify and self-host Probe freely. If you run a modified version **as a network service**, the AGPL requires you to publish your changes under the same license.
