@@ -1,0 +1,55 @@
+# --- dependencies ---
+node_modules/
+
+# --- build output ---
+dist/
+*.tsbuildinfo
+
+# --- secrets / env ---
+.env
+.env.*
+!.env.example
+
+# --- editor / OS ---
+.DS_Store
+.vscode/
+.idea/
+.claude/
+*.log
+npm-debug.log*
+
+# --- runtime data ---
+.video/
+.tmp/
+.cache/
+server/.data/
+server/.screenshots/
+
+# --- Fly ---
+fly.toml.bak
+
+# --- Lead-finder output (private prospect list, not for the repo) ---
+scripts/leads/
+
+# agent run captures — may contain screenshots of internal pages
+server/.screenshots/
+
+# --- pre-open-source hygiene ---
+# build output
+dist/
+build/
+.next/
+coverage/
+
+# runtime artifacts and captures
+*.log
+*.rdb
+.screenshots/
+__pycache__/
+*.pyc
+
+# local env and OS cruft
+.env
+.env.local
+.env.*.local
+.DS_Store
